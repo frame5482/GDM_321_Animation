@@ -1,8 +1,16 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 019251695fb85f44da8cf4ffff22c6c6
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
+=======
+guid: 48f9d683a77b2b541b66e8ee4e650529
+folderAsset: yes
+timeCreated: 1559923141
+licenseType: Store
+DefaultImporter:
+>>>>>>> Scenes
   userData: 
   assetBundleName: 
   assetBundleVariant: 
