@@ -48,10 +48,11 @@ Material:
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: 3000
   stringTagMap:
+    MotionVector: User
     RenderType: Transparent
   disabledShaderPasses:
-  - DistortionVectors
   - MOTIONVECTORS
+  - DistortionVectors
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
@@ -104,6 +105,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Shadow:
+        m_Texture: {fileID: 2800000, guid: 8a709bcf313a1264499a4a79b03ad072, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -143,9 +148,12 @@ Material:
     - _BumpScale: 1
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
+    - _ConservativeDepthOffsetEnable: 0
     - _Cull: 2
     - _CullMode: 2
+    - _CullModeForward: 2
     - _Cutoff: 0.5
+    - _DepthOffsetEnable: 0
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
     - _DistortionBlendMode: 0
@@ -165,13 +173,16 @@ Material:
     - _DistortionVectorScale: 2
     - _DoubleSidedEnable: 0
     - _DoubleSidedGIMode: 0
+    - _DoubleSidedNormalMode: 2
     - _DstBlend: 10
     - _DstBlendAlpha: 10
     - _EmissiveExposureWeight: 1
     - _EmissiveIntensity: 1
     - _EmissiveIntensityUnit: 0
+    - _EnableBlendModePreserveSpecularLighting: 0
     - _EnableFogOnTransparent: 0
     - _EnvironmentReflections: 1
+    - _ExcludeFromTUAndAA: 0
     - _GlossMapScale: 1
     - _Glossiness: 0.59999996
     - _GlossyReflections: 1
@@ -182,8 +193,14 @@ Material:
     - _OpaqueCullMode: 2
     - _Parallax: 0.02
     - _QueueOffset: 0
+    - _Range: 0
+    - _Range_1: -0.41
     - _ReceiveShadows: 1
+    - _RenderQueueType: 6
     - _SampleGI: 0
+    - _Scroll: 0
+    - _Smooth: 0.0001
+    - _Smooth_1: 0.0001
     - _Smoothness: 0.467
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
@@ -199,11 +216,16 @@ Material:
     - _StencilWriteMaskMV: 43
     - _Surface: 1
     - _SurfaceType: 1
+    - _TransparentBackfaceEnable: 0
     - _TransparentCullMode: 2
+    - _TransparentDepthPostpassEnable: 0
+    - _TransparentDepthPrepassEnable: 0
     - _TransparentSortPriority: 0
+    - _TransparentWritingMotionVec: 0
     - _TransparentZWrite: 0
     - _UVSec: 0
     - _UseEmissiveIntensity: 0
+    - _UseShadowThreshold: 0
     - _WorkflowMode: 1
     - _ZTestDepthEqualForOpaque: 4
     - _ZTestModeDistortion: 4
@@ -211,11 +233,17 @@ Material:
     - _ZWrite: 0
     m_Colors:
     - _BaseColor: {r: 0, g: 0, b: 0, a: 0.83137256}
-    - _Color: {r: 0, g: 0, b: 0, a: 0.42745098}
+    - _Color: {r: 0, g: 0, b: 0, a: 0.8235294}
+    - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _EmissiveColor: {r: 0, g: 0, b: 0, a: 1}
     - _EmissiveColorLDR: {r: 0, g: 0, b: 0, a: 1}
+    - _MainColor: {r: 0, g: 0, b: 0, a: 0.42745098}
+    - _Shadow1: {r: 0, g: 0, b: 0, a: 0}
+    - _Shadow_1: {r: 0, g: 0, b: 0, a: 0}
+    - _Shadow_2: {r: 0.5, g: 0.5, b: 0.5, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _UnlitColor: {r: 0, g: 0, b: 0, a: 0.42745098}
+    - _UnlitColor: {r: 0, g: 0, b: 0, a: 0.8235294}
     - _UnlitColorMap_MipInfo: {r: 0, g: 0, b: 0, a: 0}
+    - _shadow2: {r: 0.5, g: 0.5, b: 0.5, a: 0}
   m_BuildTextureStacks: []
