@@ -6475,6 +6475,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Phase1EnternalNigthtAnimation (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4559073018486800152, guid: f44fc293232aeb44bb859560bad769e9, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4559073018486800152, guid: f44fc293232aeb44bb859560bad769e9, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4c339b19824f2e043a7fab024aca35c1, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
